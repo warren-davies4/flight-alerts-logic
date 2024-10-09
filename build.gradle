@@ -18,3 +18,4 @@ buildscript {
 }
 
 apply plugin: 'com.palantir.transforms-defaults'
+apply plugin: 'com.palantir.transforms.lang.format-code-ruff'
