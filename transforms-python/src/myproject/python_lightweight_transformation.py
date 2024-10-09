@@ -3,7 +3,9 @@ from transforms.api import Input, Output, transform, lightweight
 
 @lightweight(cpu_cores=1, memory_gb=8)
 @transform(
-    output_dataset=Output("/SOLEX-a8870f/[Notional] RAP Playground/Data Engineering Tutorials - Code Repositories/Datasource Project: Flight Alerts/myproject/python_lightweight_transformation"),
+    output_dataset=Output(
+        "/SOLEX-a8870f/[Notional] RAP Playground/Data Engineering Tutorials - Code Repositories/Datasource Project: Flight Alerts/myproject/python_lightweight_transformation"
+    ),
     input_dataset=Input("SOURCE_DATASET_PATH"),
 )
 def polars_lightweight_transform(output_dataset, input_dataset):
@@ -13,7 +15,9 @@ def polars_lightweight_transform(output_dataset, input_dataset):
 
 @lightweight
 @transform(
-    output_dataset=Output("/SOLEX-a8870f/[Notional] RAP Playground/Data Engineering Tutorials - Code Repositories/Datasource Project: Flight Alerts/myproject/python_lightweight_transformation"),
+    output_dataset=Output(
+        "/SOLEX-a8870f/[Notional] RAP Playground/Data Engineering Tutorials - Code Repositories/Datasource Project: Flight Alerts/myproject/python_lightweight_transformation"
+    ),
     input_dataset=Input("SOURCE_DATASET_PATH"),
 )
 def pandas_lightweight_transform(output_dataset, input_dataset):
