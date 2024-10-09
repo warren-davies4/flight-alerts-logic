@@ -27,7 +27,7 @@ apply plugin: 'com.palantir.transforms.lang.format-code-black'
 // apply plugin: 'com.palantir.transforms.lang.format-code-ruff'
 
 // Apply the linting plugins
-apply plugin: 'com.palantir.conda.pep8'
+// apply plugin: 'com.palantir.conda.pep8'
 // apply plugin: 'com.palantir.conda.pylint'
 
 // Apply the anti-pattern linter
