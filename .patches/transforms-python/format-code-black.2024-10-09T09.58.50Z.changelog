@@ -1,0 +1,3 @@
+---
+title: Format code with Black
+message: This change reformats the code in this repository using the black code formatter

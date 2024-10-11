@@ -23,7 +23,7 @@ apply plugin: 'com.palantir.transforms.lang.python-defaults'
 // apply plugin: 'com.palantir.transforms.lang.pytest-defaults'
 
 // Apply the formatting plugins
-// apply plugin: 'com.palantir.transforms.lang.format-code-black'
+apply plugin: 'com.palantir.transforms.lang.format-code-black'
 // apply plugin: 'com.palantir.transforms.lang.format-code-ruff'
 
 // Apply the linting plugins
