@@ -7,9 +7,16 @@ mappings:
   path: "/deprecated-field"
   rid: "ri.foundry.main.dataset.a202b4c0-82d4-4619-b481-cf47d282abe3"
 - alias: "/SOLEX-a8870f/[Notional] RAP Playground/Data Engineering Tutorials - Code\
+    \ Repositories/Datasource Project: Flight Alerts/datasets/clean/flight-alerts-clean"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.8f02ab63-356f-41ad-bdb4-3e6cb8173390"
+- alias: "/SOLEX-a8870f/[Notional] RAP Playground/Data Engineering Tutorials - Code\
     \ Repositories/Datasource Project: Flight Alerts/datasets/preprocessed/flight_alerts_preprocessed"
   modes:
   - "BUILD"
+  - "READ"
   path: "/deprecated-field"
   rid: "ri.foundry.main.dataset.a510be5d-02fc-45e3-be72-1c48b58a54e8"
 - alias: "ri.foundry.main.dataset.9857288a-d355-40cb-ba4b-179d7a1cdeb1"
