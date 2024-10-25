@@ -6,10 +6,17 @@ mappings:
   - "READ"
   path: "/deprecated-field"
   rid: "ri.foundry.main.dataset.a202b4c0-82d4-4619-b481-cf47d282abe3"
+- alias: "/SOLEX-a8870f/[Notional] RAP Playground/Advanced incremental data processing\
+    \ with PySpark in Code Repositories (2024-10-04 16:01:09)/generated_dataset_1"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.dc1eaa1c-bbb8-4630-8a0f-87631a4cb4c6"
 - alias: "/SOLEX-a8870f/[Notional] RAP Playground/Data Engineering Tutorials - Code\
     \ Repositories/Datasource Project: Flight Alerts/datasets/clean/flight-alerts-clean"
   modes:
   - "BUILD"
+  - "READ"
   path: "/deprecated-field"
   rid: "ri.foundry.main.dataset.8f02ab63-356f-41ad-bdb4-3e6cb8173390"
 - alias: "/SOLEX-a8870f/[Notional] RAP Playground/Data Engineering Tutorials - Code\
@@ -28,6 +35,5 @@ mappings:
 - alias: "ri.foundry.main.dataset.9857288a-d355-40cb-ba4b-179d7a1cdeb1"
   modes:
   - "BUILD"
-  - "READ"
   path: "/deprecated-field"
   rid: "ri.foundry.main.dataset.9857288a-d355-40cb-ba4b-179d7a1cdeb1"
