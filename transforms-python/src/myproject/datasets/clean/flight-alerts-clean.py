@@ -11,4 +11,5 @@ from transforms.api import transform_df, Input, Output
     ),
 )
 def compute(source_df):
-    return source_df
+    df_output = clean.add_clean_col(source_df)
+    return df_output
