@@ -7,7 +7,7 @@ from myproject.datasets import cleaning_utils as clean
     Output(
         "/SOLEX-a8870f/[Notional] RAP Playground/Data Engineering Tutorials - Code Repositories/Datasource Project: Flight Alerts/datasets/processed/flight_alerts_processed"
     ),
-    source_df=Input("ri.foundry.main.dataset.9857288a-d355-40cb-ba4b-179d7a1cdeb1"),
+    source_df=Input("/SOLEX-a8870f/[Notional] RAP Playground/Data Engineering Tutorials - Code Repositories/Datasource Project: Flight Alerts/datasets/preprocessed/flight_alerts_preprocessed"),
 )
 def compute(source_df):
     df_output = clean.add_processed_col(source_df)
