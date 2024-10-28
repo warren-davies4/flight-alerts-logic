@@ -1,15 +1,11 @@
 # from pyspark.sql import functions as F
-from transforms.api import transform_df, Input, Output
-from myproject.datasets import cleaning_utils as clean
-
+# from transforms.api import transform_df, Input, Output
+from datasets import cleaning_utils as clean
+from datasets.transforms import transform_df
 
 @transform_df(
-    Output(
-        "/SOLEX-a8870f/[Notional] RAP Playground/Data Engineering Tutorials - Code Repositories/Datasource Project: Flight Alerts/datasets/preprocessed/flight_alerts_preprocessed"
-    ),
-    source_df=Input(
-        "/SOLEX-a8870f/[Notional] RAP Playground/Data Engineering Tutorials - Code Repositories/Datasource Project: Flight Alerts/datasets/clean/flight-alerts-clean"
-    ),
+    "data_out/preprocessed",
+    "data_out/clean",
 )
 def compute(source_df):
     df_output = clean.add_preprocessed_col(source_df)
