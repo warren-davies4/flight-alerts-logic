@@ -36,22 +36,3 @@ def save_spark_dataframe_as_csv(
         .option("header", True)
         .csv(str(Path(output_folder)))
     )
-
-# def rename_csv_output(
-#     output_path : str
-# ) -> None:
-#     """
-#     By default spark gives files saved to csv random filenames.
-#     This function will check for any CSV files in the specified subdirectory of data_out
-#     and rename them to the same name as that subdirectory
-
-#     Parameters
-#     ----------
-#         output_name : str
-#             The name you want to give to the CSV output. This should be the 
-#             same name as the folder it is contained in.
-#     """
-#     path = rf'{output_}/*.csv'
-#     files = glob.glob(path)
-#     print(files)
-#     os.rename(files[0], str(Path(f'data_out/{output_name}/{output_name}.csv')) )
