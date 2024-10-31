@@ -25,6 +25,7 @@ requirements:
     - transforms {{ PYTHON_TRANSFORMS_VERSION }}
     - transforms-expectations
     - transforms-verbs
+    - openpyxl
 
 build:
   script: python setup.py install --single-version-externally-managed --record=record.txt
